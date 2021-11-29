@@ -3,7 +3,7 @@
 ![Tecnica 4](/Logo/images/logo_base.png)
 
 
-Aplicaciones Usadas
+# Aplicaciones Usadas
 
 Para seguir la documentación al pie de la letra y de forma precisa es necesario, en lo posible, que tenga acceso a estas herramientas recomendadas:
 IDE de Arduino.
@@ -13,7 +13,7 @@ Gantt Project (o alguna app compatible con el formato mpp).
 
 En esta carpeta se almacena la documentación del sistema "LocaLamp"
 
-## Contiene los siguientes archivos:
+# Contiene los siguientes archivos:
 
 - Carta de Presentación
 - Manual de Usuario
@@ -28,7 +28,7 @@ En esta carpeta se almacena la documentación del sistema "LocaLamp"
 - Administración del sistema
 - Portada
 
-#### Equipo  
+# Equipo  
 
 - Trejo Franco
 - Lagraña Ricardo
