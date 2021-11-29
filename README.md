@@ -1,6 +1,6 @@
 # LocaLamp
 
-![Tecnica 4](\Logo\images\logo1.png)
+![Tecnica 4](..\Logo\images\logo1.png)
 
 
 Aplicaciones Usadas
