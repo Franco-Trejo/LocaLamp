@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-08-09" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="3.1.3103" locale="es_ES">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="146" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="75" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="75" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#000000 #ffffcc #f4f4f4 #cccc00]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="Argentina Holidays 2020">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY">
+            <![CDATA[New Year's Day]]>
+        </date>
+        <date year="" month="3" date="24" type="HOLIDAY">
+            <![CDATA[Truth and Justice Memorial Day]]>
+        </date>
+        <date year="" month="4" date="2" type="HOLIDAY">
+            <![CDATA[Malvinas Day]]>
+        </date>
+        <date year="" month="5" date="1" type="HOLIDAY">
+            <![CDATA[Labour Day]]>
+        </date>
+        <date year="" month="5" date="25" type="HOLIDAY">
+            <![CDATA[May Day Revolution]]>
+        </date>
+        <date year="" month="7" date="9" type="HOLIDAY">
+            <![CDATA[Independence Day]]>
+        </date>
+        <date year="" month="12" date="8" type="HOLIDAY">
+            <![CDATA[Immaculate Conception Day]]>
+        </date>
+        <date year="" month="12" date="25" type="HOLIDAY">
+            <![CDATA[Christmas Day]]>
+        </date>
+        <date year="2020" month="2" date="24" type="HOLIDAY">
+            <![CDATA[Carnival Monday]]>
+        </date>
+        <date year="2020" month="2" date="25" type="HOLIDAY">
+            <![CDATA[Carnival Tuesday]]>
+        </date>
+        <date year="2020" month="3" date="23" type="HOLIDAY">
+            <![CDATA[Truth and Justice Memorial Bridge Holiday]]>
+        </date>
+        <date year="2020" month="4" date="10" type="HOLIDAY">
+            <![CDATA[Good Friday]]>
+        </date>
+        <date year="2020" month="6" date="15" type="HOLIDAY">
+            <![CDATA[Martin Miguel de Guemes Day]]>
+        </date>
+        <date year="2020" month="6" date="20" type="HOLIDAY">
+            <![CDATA[National Flag Day]]>
+        </date>
+        <date year="2020" month="7" date="10" type="HOLIDAY">
+            <![CDATA[Independence Day Bridge Holiday]]>
+        </date>
+        <date year="2020" month="8" date="17" type="HOLIDAY">
+            <![CDATA[San Martin's Day]]>
+        </date>
+        <date year="2020" month="10" date="12" type="HOLIDAY">
+            <![CDATA[Day of respect for cultural diversity]]>
+        </date>
+        <date year="2020" month="11" date="23" type="HOLIDAY">
+            <![CDATA[National Sovereignty Day]]>
+        </date>
+        <date year="2020" month="12" date="7" type="HOLIDAY">
+            <![CDATA[Immaculate Conception Bridge Holiday]]>
+        </date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="57" name="Iniciamos el sistema" color="#8cb6ce" meeting="false" start="2021-08-13" duration="60" complete="0" thirdDate="2021-08-10" thirdDate-constraint="0" priority="4" expand="true">
+            <depend id="208" type="2" difference="0" hardness="Strong"/>
+            <task id="0" name="Comprar los componentes" color="#000000" meeting="false" start="2021-08-13" duration="5" complete="0" thirdDate="2021-09-02" thirdDate-constraint="0" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+                <task id="1" name="Comprar componentes" color="#8cb6ce" meeting="false" start="2021-08-13" duration="5" complete="0" thirdDate="2021-09-02" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="8" name="Diseñar grafico en Fritzing" color="#8cb6ce" meeting="false" start="2021-08-20" duration="5" complete="0" thirdDate="2021-08-20" thirdDate-constraint="0" expand="true">
+                <depend id="42" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="42" name="Programar el microcontrolador" color="#8cb6ce" meeting="false" start="2021-08-27" duration="5" complete="0" thirdDate="2021-09-21" thirdDate-constraint="0" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" name="Simular sistema en proteus" color="#8cb6ce" meeting="false" start="2021-09-03" duration="5" complete="0" thirdDate="2021-09-02" thirdDate-constraint="0" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" name="En caso de falla, volver a simular" color="#000000" meeting="false" start="2021-09-10" duration="10" complete="0" thirdDate="2021-09-14" thirdDate-constraint="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+                <task id="15" name="Buscar el error" color="#8cb6ce" meeting="false" start="2021-09-10" duration="5" complete="0" thirdDate="2021-09-14" thirdDate-constraint="0" expand="true">
+                    <depend id="16" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="16" name="Buscar Solucion" color="#8cb6ce" meeting="false" start="2021-09-17" duration="5" complete="0" thirdDate="2021-09-14" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="17" name="Armar prototipo" color="#000000" meeting="false" start="2021-09-24" duration="10" complete="0" thirdDate="2021-09-21" thirdDate-constraint="0" expand="true">
+                <depend id="45" type="2" difference="0" hardness="Strong"/>
+                <task id="19" name="Colocar ESP8266 en protoboard" color="#8cb6ce" meeting="false" start="2021-09-24" duration="5" complete="0" thirdDate="2021-09-14" thirdDate-constraint="0" expand="true">
+                    <depend id="32" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="25" name="Colocar portalampara" color="#8cb6ce" meeting="false" start="2021-09-24" duration="5" complete="0" thirdDate="2021-09-09" thirdDate-constraint="0" expand="true">
+                    <depend id="32" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="30" name="Colocar lampara" color="#8cb6ce" meeting="false" start="2021-09-24" duration="5" complete="0" thirdDate="2021-09-21" thirdDate-constraint="0" expand="true">
+                    <depend id="32" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="31" name="Colocar los cables" color="#8cb6ce" meeting="false" start="2021-09-24" duration="5" complete="0" thirdDate="2021-09-21" thirdDate-constraint="0" expand="true">
+                    <depend id="32" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="32" name="Programar arduino" color="#8cb6ce" meeting="false" start="2021-10-01" duration="5" complete="0" thirdDate="2021-09-21" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="45" name="En caso de fallo" color="#000000" meeting="false" start="2021-10-08" duration="10" complete="0" thirdDate="2021-09-27" thirdDate-constraint="0" expand="true">
+                <depend id="52" type="2" difference="0" hardness="Strong"/>
+                <task id="47" name="Buscar error" color="#8cb6ce" meeting="false" start="2021-10-08" duration="5" complete="0" thirdDate="2021-09-22" thirdDate-constraint="0" expand="true">
+                    <depend id="49" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="49" name="Buscar solucion" color="#8cb6ce" meeting="false" start="2021-10-15" duration="5" complete="0" thirdDate="2021-09-27" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="52" name="Si todo funciona, agregamos los componentes en una placa" color="#8cb6ce" meeting="false" start="2021-10-22" duration="5" complete="0" thirdDate="2021-10-01" thirdDate-constraint="0" expand="true">
+                <depend id="53" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="53" name="Integramos los componentes y revisamos cualquier fallo" color="#8cb6ce" meeting="false" start="2021-10-29" duration="5" complete="0" thirdDate="2021-10-07" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="208" name="Finalizamos el sistema" color="#8cb6ce" meeting="false" start="2021-11-05" duration="1" complete="0" thirdDate="2021-11-04" thirdDate-constraint="1" priority="4" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
