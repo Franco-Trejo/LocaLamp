@@ -28,7 +28,7 @@ En esta carpeta se almacena la documentación del sistema "LocaLamp"
 - Administración del sistema
 - Portada
 
-### Equipo  
+#### Equipo  
 
 - Trejo Franco
 - Lagraña Ricardo
