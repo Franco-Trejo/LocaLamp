@@ -1,6 +1,6 @@
 # LocaLamp
 
-![Logo](/Logo/images/logo_base.png)
+![Logo](/Logo/logo_base.png)
 
 
 # Aplicaciones Usadas
