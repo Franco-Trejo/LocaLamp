@@ -30,5 +30,5 @@ En esta carpeta se almacena la documentación del sistema "LocaLamp"
 
 # Equipo  
 
-- Trejo Franco
+- Tito Morán
 - Lagraña Ricardo
